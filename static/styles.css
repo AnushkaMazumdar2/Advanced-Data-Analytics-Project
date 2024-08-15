@@ -1,0 +1,202 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lora', serif;
+    background-color: #f8dce6; /* Light pink background */
+    color: #fff0f6; /* Very light pink text */
+}
+
+header {
+    background-color: #f9a6b4; /* Medium pink background */
+    color: #fff0f6; /* Very light pink text */
+    border-bottom: solid 3px #f68f9f; /* Darker pink border */
+}
+
+.title {
+    margin: 0px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 70px;
+    font-style: italic;
+    color: #f7f5f5; /* Darker pink text */
+}
+
+.tagline {
+    margin: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-style: oblique;
+    color: #f1eeee; /* Darker pink text */
+}
+
+.section1 {
+    border-bottom: 2px solid #f68f9f; /* Darker pink border */
+    min-height: 500px;
+}
+
+.section1 {
+    border-bottom: 2px solid #d59ebf;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.table1 {
+    width: 100%;
+    margin: 0;
+}
+
+.table1 td {
+    padding: 10px;
+}
+
+.image-container img {
+    max-width: 60%;
+    height: auto;
+}
+
+
+table.table1 {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 400;
+    color: #f68f9f; /* Darker pink text */
+}
+
+td.label {
+    width: 300px;
+    height: 50px;
+}
+
+td.sel {
+    width: 300px;
+    height: 50px;
+}
+
+select {
+    padding: 5px;
+    width: 200px;
+    font-size: 18px;
+    font-family: 'Lora', serif;
+    font-style: oblique;
+    font-weight: 400;
+    border: solid 2px #f68f9f; /* Darker pink border */
+    border-radius: 10px;
+    background-color: #fce4ec; /* Very light pink background */
+    color: #f68f9f; /* Darker pink text */
+}
+
+.button {
+    margin: 25px;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn {
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    font-family: 'Lora', serif;
+    font-style: oblique;
+    font-weight: 900;
+    background-color: #f68f9f; /* Medium pink background */
+    color: #fff0f6; /* Very light pink text */
+    border: solid 2px #f68f9f; /* Medium pink border */
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #fff0f6; /* Very light pink background */
+    color: #f68f9f; /* Medium pink text */
+    border: solid 2px #f68f9f; /* Medium pink border */
+}
+
+.prediction {
+    padding-bottom: 50px;
+    border-bottom: 2px solid #f68f9f; /* Darker pink border */
+}
+
+table.table2 {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f68f9f; /* Darker pink text */
+}
+
+tr.r1 {
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 400;
+}
+
+tr.r2 {
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 900;
+}
+
+table.table3 {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid #f68f9f; /* Darker pink outline */
+    color: #f68f9f; /* Darker pink text */
+}
+
+td.result {
+    width: 300px;
+    height: 50px;
+}
+
+.button2 {
+    text-align: center;
+    margin-top: 45px;
+}
+
+#about {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    color: #f68f9f; /* Darker pink text */
+}
+
+#introduction {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 20px;
+    font-style: oblique;
+    color: #f68f9f; /* Darker pink text */
+}
+
+.footer {
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f8dce6; /* Light pink background */
+    color: #250914; /* Very light pink text */
+}
+
+#developer {
+    flex-basis: 100%;
+    text-align: center;
+}
