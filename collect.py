@@ -1,3 +1,4 @@
+# A schematic understanding of the collected data. I manually collected the data. So no coding was involved.
 import pandas as pd
 
 # Manually create the dataset as a list of dictionaries
